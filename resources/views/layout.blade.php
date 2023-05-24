@@ -12,7 +12,7 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a  href="{{ route('home') }}">Home</a>
+        <a  href="{{ route('login') }}">Login</a>
       </li>
       <li class="nav-item">
         <a  href="{{ route('about') }}">About</a>

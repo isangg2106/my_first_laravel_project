@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','StudentController@welcome')->name('welcome');
 Route::get('/about','StudentController@about')->name('about');
 Route::get('/register', 'StudentController@register')->name('register');
-Route::get('/home', 'StudentController@home')->name('home');
+Route::get('/login', 'StudentController@login')->name('login');
 
 //list
 Route::get('/list', 'StudentController@list')->name('list');

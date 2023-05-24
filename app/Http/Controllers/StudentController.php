@@ -28,9 +28,9 @@ class StudentController extends Controller
     {
         return view('register');
     }
-    public function home()
+    public function login()
     {
-        return view('home');
+        return view('login');
     }
     
     public function save(Request $request){
